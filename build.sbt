@@ -41,6 +41,8 @@ libraryDependencies ++=
   "org.easymock" % "easymock" % "3.3" % "test" ::
   "org.scalatest" %% "scalatest" % "2.2.2" % "test" ::
   "com.jsuereth" %% "scala-arm" % "1.4" % "test" ::
+  "io.netty" % "netty-handler" % "4.0.35.Final" % "test" ::
+  ("io.netty" % "netty-tcnative" % "1.1.33.Fork15" % "test" classifier "osx-x86_64") ::
   Nil
 
 autoAPIMappings := true
